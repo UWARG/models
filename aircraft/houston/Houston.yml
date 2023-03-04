@@ -18,22 +18,6 @@ beepANACenter: 0
 extendedLimits: 0
 extendedTrims: 0
 throttleReversed: 0
-flightModeData:
-  0:
-    name: ""
-    fadeIn: 0
-    fadeOut: 0
-    gvars:
-      1:
-        val: 100
-      2:
-        val: 200
-      3:
-        val: 300
-      4:
-        val: 400
-      5:
-        val: 500
 mixData:
   - destCh: 0
     srcRaw: I3
@@ -296,49 +280,6 @@ potsWarnMode: WARN_MANUAL
 jitterFilter: GLOBAL
 potsWarnEnabled: 2
 displayChecklist: 0
-gvars:
-  0:
-    name: Sta
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
-  1:
-    name: Alt
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
-  2:
-    name: Loi
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
-  3:
-    name: RTL
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
-  4:
-    name: Aut
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
-  5:
-    name: Lan
-    min: 0
-    max: 0
-    popup: 0
-    prec: 0
-    unit: 0
 telemetryProtocol: 0
 varioData:
   source: none
