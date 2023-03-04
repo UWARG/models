@@ -4,8 +4,8 @@ This repository contains the model configurations for WARG's various aircraft. T
 
 
 This repository is broken down into two main directories:
-- **Radios**: Contains configurations for radios, such as calibrations, global functions, etc.
-- **Aircraft**: Contains configurations for flight controllers and radio models, as appropriate
+- **radios**: Contains configurations for radios, such as calibrations, global functions, etc.
+- **aircraft**: Contains configurations for flight controllers and radio models, as appropriate
 
 
 ### Radios
