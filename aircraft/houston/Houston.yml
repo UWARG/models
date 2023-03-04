@@ -1,0 +1,397 @@
+semver: 2.8.0
+header:
+  name: Houston
+  bitmap: ""
+  labels: WARG
+  modelId:
+    1:
+      val: 0
+noGlobalFunctions: 0
+thrTrim: 0
+trimInc: 0
+displayTrims: 0
+ignoreSensorIds: 0
+disableThrottleWarning: 0
+enableCustomThrottleWarning: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+flightModeData:
+  0:
+    name: ""
+    fadeIn: 0
+    fadeOut: 0
+    gvars:
+      1:
+        val: 100
+      2:
+        val: 200
+      3:
+        val: 300
+      4:
+        val: 400
+      5:
+        val: 500
+mixData:
+  - destCh: 0
+    srcRaw: I3
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 1
+    srcRaw: I1
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 2
+    srcRaw: I2
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 3
+    srcRaw: I0
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 4
+    srcRaw: I4
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+  - destCh: 5
+    srcRaw: I5
+    weight: 100
+    swtch: NONE
+    curve:
+      type: 0
+      value: 0
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    carryTrim: 0
+    mltpx: ADD
+    mixWarn: 0
+    flightModes: 000000000
+    offset: 0
+    name: ""
+expoData:
+  - srcRaw: Rud
+    scale: 0
+    mode: 3
+    chn: 0
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 0
+      value: 0
+    carryTrim: 0
+    name: ""
+  - srcRaw: Ele
+    scale: 0
+    mode: 3
+    chn: 1
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 0
+      value: 0
+    carryTrim: 0
+    name: ""
+  - srcRaw: Thr
+    scale: 0
+    mode: 3
+    chn: 2
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 0
+      value: 0
+    carryTrim: 0
+    name: ""
+  - srcRaw: Ail
+    scale: 0
+    mode: 3
+    chn: 3
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 0
+      value: 0
+    carryTrim: 0
+    name: ""
+  - srcRaw: 6POS
+    scale: 0
+    mode: 3
+    chn: 4
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 3
+      value: 1
+    carryTrim: 0
+    name: ""
+  - srcRaw: SF
+    scale: 0
+    mode: 3
+    chn: 5
+    swtch: NONE
+    flightModes: 000000000
+    weight: 100
+    offset: 0
+    curve:
+      type: 0
+      value: 0
+    carryTrim: 0
+    name: ""
+inputNames:
+  0:
+    val: Rud
+  1:
+    val: Ele
+  2:
+    val: Thr
+  3:
+    val: Ail
+  4:
+    val: Mode
+  5:
+    val: Arm
+curves:
+  0:
+    type: 1
+    smooth: 0
+    points: 7
+    name: Mode
+points:
+  0:
+    val: -67
+  1:
+    val: -67
+  2:
+    val: -41
+  3:
+    val: -41
+  4:
+    val: -15
+  5:
+    val: -15
+  6:
+    val: 11
+  7:
+    val: 11
+  8:
+    val: 37
+  9:
+    val: 37
+  10:
+    val: 63
+  11:
+    val: 63
+  12:
+    val: -80
+  13:
+    val: -80
+  14:
+    val: -40
+  15:
+    val: -40
+  16:
+    val: 0
+  17:
+    val: 0
+  18:
+    val: 40
+  19:
+    val: 40
+  20:
+    val: 80
+  21:
+    val: 80
+swashR:
+  type: TYPE_NONE
+  value: 0
+  collectiveSource: NONE
+  aileronSource: NONE
+  elevatorSource: NONE
+  collectiveWeight: 0
+  aileronWeight: 0
+  elevatorWeight: 0
+thrTraceSrc: Thr
+switchWarningState: Fu
+thrTrimSw: 0
+potsWarnMode: WARN_MANUAL
+jitterFilter: GLOBAL
+potsWarnEnabled: 2
+displayChecklist: 0
+gvars:
+  0:
+    name: Sta
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+  1:
+    name: Alt
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+  2:
+    name: Loi
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+  3:
+    name: RTL
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+  4:
+    name: Aut
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+  5:
+    name: Lan
+    min: 0
+    max: 0
+    popup: 0
+    prec: 0
+    unit: 0
+telemetryProtocol: 0
+varioData:
+  source: none
+  centerSilent: 0
+  centerMax: 0
+  centerMin: 0
+  min: 0
+  max: 0
+rssiSource: none
+rfAlarms:
+  warning: 45
+  critical: 42
+disableTelemetryWarning: 0
+moduleData:
+  1:
+    type: TYPE_CROSSFIRE
+    channelsStart: 0
+    channelsCount: 16
+    failsafeMode: NOT_SET
+    mod:
+      crsf:
+        telemetryBaudrate: 0
+trainerData:
+  mode: OFF
+  channelsStart: 0
+  channelsCount: -8
+  frameLength: 0
+  delay: 0
+  pulsePol: 0
+screenData:
+  0:
+    LayoutId: Layout2P1
+    layoutData:
+      options:
+        0:
+          type: Bool
+          value:
+            boolValue: 1
+        1:
+          type: Bool
+          value:
+            boolValue: 1
+        2:
+          type: Bool
+          value:
+            boolValue: 1
+        3:
+          type: Bool
+          value:
+            boolValue: 1
+        4:
+          type: Bool
+          value:
+            boolValue: 0
+view: 0
+modelRegistrationID: ""
